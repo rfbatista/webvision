@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "web-vision"
+version = "0.1.0"
+description = ""
+authors = ["rfbatista <rfbatista@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+torch = {version = "^2.2.1+cpu", source = "pytorch"}
+torchvision = {version = "^0.17.1+cpu", source = "pytorch"}
+matplotlib = "^3.8.3"
+onnx = "^1.15.0"
+onnxruntime = "^1.17.1"
+
+
+[[tool.poetry.source]]
+name = "pytorch"
+url = "https://download.pytorch.org/whl/cpu"
+priority = "explicit"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

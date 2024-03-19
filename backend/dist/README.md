@@ -1,0 +1,1 @@
+This folder contains the built output assets for the worker "web-vision-backend" generated at 2024-03-18T15:17:59.669Z.
